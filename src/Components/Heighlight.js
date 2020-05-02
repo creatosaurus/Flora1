@@ -7,7 +7,7 @@ import './Heighlight.css'
 
 const Heighlight = () => {
     return (
-        <section className="highlight">
+        <section className="highlight" id="highlight">
             <div className="head">HIGHLIGHT</div>
             <div className="card-section">
                 <div className="card">

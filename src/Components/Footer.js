@@ -10,15 +10,15 @@ import copyright from '../assets/copyright.svg'
 const Footer = () => {
     return (
         <React.Fragment>
-            <footer>
-                <div class="grid">
+            <footer id="footer">
+                <div className="grid">
                     <div>
                         <strong>ABOUT FLORA INSTITUTE</strong>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aliquam minima tempora blanditiis
                             sint!
                             Nisi voluptas fugit iste velit, sequi amet modi impedit numquam, debitis, quisquam maxime accusamus
                     doloremque iure</p>
-                        <div class="icons">
+                        <div className="icons">
                             <img src={facebook} alt="facebook" />
                             <img src={instagram} alt="instagram" />
                             <img src={twitter} alt="twitter" />
@@ -27,19 +27,18 @@ const Footer = () => {
                     </div>
                     <div>
                         <strong>ABOUT FLORA INSTITUTE</strong>
-                        <div class="link">
-                            <span><a href="./index.html">Home</a></span>
-                            <span><a href="./index.html">Admission</a></span>
-                            <span><a href="./index.html">Coureses</a></span>
-                            <span><a href="./index.html">Achivements</a></span>
-                            <span><a href="./index.html">Gallary</a></span>
+                        <div className="link">
+                            <span><a href="#home">Home</a></span>
+                            <span><a href="#admission">Admission</a></span>
+                            <span><a href="#courses">Coureses</a></span>
+                            <span><a href="#achivements">Achivements</a></span>
+                            <span><a href="#gallary">Gallary</a></span>
                         </div>
-
                     </div>
 
                     <div>
                         <strong>GET IN TOUCH</strong>
-                        <div class="getintouch">
+                        <div className="getintouch">
                             <p>Flora Institiute of Technology</p>
                             <p>A/P Khopi near Khedshivapur TollPlaza Off Pune-Satara Highway TQ Bhor Ta: Bhor Dist: Pune-412205</p>
                             <p>Contact no- 020-24336601</p>
@@ -48,12 +47,12 @@ const Footer = () => {
 
                     <div>
                         <strong>REACH US OUT</strong>
-                        <div class="reachus" />
+                        <div className="reachus" />
                     </div>
 
                 </div>
             </footer>
-            <div class="copyright">
+            <div className="copyright">
                 <img src={copyright} alt="copyright" />
                     <strong>Flora institiute of technology 2020</strong>
         </div>

@@ -7,7 +7,7 @@ import star from '../assets/star.svg'
 
 const Achivement = () => {
     return (
-        <section className="section4">
+        <section className="section4" id="achivements">
             <div className="head">ACHIVEMENTS</div>
             <div className="container">
                 <div className="container2">

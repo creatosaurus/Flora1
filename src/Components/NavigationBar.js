@@ -1,11 +1,11 @@
 import React from 'react'
 import './Header.css'
 
-const NavigationBar = () => {
+const NavigationBar = ({slide}) => {
     return (
-        <header>
+        <header id="home">
             <nav>
-                <div className="menu" onClick={()=>alert('hi')}>
+                <div className="menu" onClick={()=>slide()}>
                 <i className="fa fa-bars"></i>
                 </div>
 
@@ -17,11 +17,11 @@ const NavigationBar = () => {
                     </div>
                 </div>
                 <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="index.html">ABOUT</a></li>
-                    <li><a href="index.html">COURSES</a></li>
-                    <li><a href="index.html">PLACEMENT</a></li>
-                    <li><a href="index.html">CONTACT</a></li>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#highlight">ABOUT</a></li>
+                    <li><a href="#courses">COURSES</a></li>
+                    <li><a href="#placement">PLACEMENT</a></li>
+                    <li><a href="#footer">CONTACT</a></li>
                 </ul>
             </nav>
             <div className="header-image">

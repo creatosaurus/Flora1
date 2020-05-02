@@ -107,14 +107,15 @@
     width:250px;
     border-radius:5px;
     padding:5px;
-    padding-left: 10px
+    padding-left: 10px;
+    background-color: #fff
 }
 
 .section9 .form .add_text select{
     outline: none;
     border:1px solid #828282;
-    height:35px;
-    width:250px;
+    height:40px;
+    width:265px;
     border-radius:5px;
     padding:5px;
     padding-left: 10px;

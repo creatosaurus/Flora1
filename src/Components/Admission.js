@@ -4,7 +4,7 @@ import star from '../assets/star.svg'
 
 const Admission = () => {
     return (
-        <section className="section9">
+        <section className="section9" id="admission">
         <div className="head">ADMISSION</div>
         <div className="admission_card">
             <div className="admission_info">

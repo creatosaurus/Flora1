@@ -3,7 +3,7 @@ import './Image.css'
 
 const Image = () => {
     return (
-        <section className="section7">
+        <section className="section7" id="gallary">
         <div>
             <hr />
             <strong>OUR GALLARY</strong>
