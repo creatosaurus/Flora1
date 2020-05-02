@@ -1,0 +1,126 @@
+.section2{
+    height:400px;
+    background-color:#C53418;
+    margin-top: 30px;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-around
+}
+
+.section2 .content{
+   height:300px;
+   width:600px;
+   font-size:24px;
+   color: #ffffff
+}
+
+.section2 .content div{
+    display:flex;
+    flex-direction: row;
+    padding:20px;
+}
+
+.section2 .content .line{
+    margin-top:-30px;
+}
+
+.section2 .content div p{
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 30px
+}
+
+
+.section2  .vedio{
+    background: url('../assets/video_image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:300px;
+    width:300px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .section2{
+        height:400px;
+        background-color:#C53418;
+        margin-top: 30px;
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content:space-around
+    }
+
+    .section2  .vedio{
+        background: url('../assets/video_image.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height:300px;
+        width:300px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    .section2 .content{
+        height:300px;
+        width:60%;
+        font-size:20px;
+        color: #ffffff;
+        margin-top:20px
+     }
+
+     .section2 .content strong{
+       margin-left:100px;
+     }
+
+     .section2 .content div p{
+        font-size: 16px;
+        line-height: 30px
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .section2 .content{
+        height:300px;
+        width:60%;
+        font-size:16px;
+        color: #ffffff;
+        margin-top:20px
+     }
+
+     .section2 .content strong{
+       margin-left:100px;
+     }
+
+     .section2 .content div p{
+        font-size: 12px;
+        line-height:20px
+    }
+}
+
+
+@media screen and (max-width: 581px) {
+    .section2 .content{
+        height:300px;
+        width:80%;
+        font-size:16px;
+        color: #ffffff;
+        margin-top:20px;
+     }
+
+     .section2 .content strong{
+       margin-left:20%;
+     }
+
+     .section2 .content div p{
+        font-size: 12px;
+        letter-spacing: 1px;
+        line-height:20px
+    }
+
+    
+}

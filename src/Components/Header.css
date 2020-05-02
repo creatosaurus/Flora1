@@ -1,0 +1,301 @@
+
+a{
+    text-decoration: none;
+  }
+  
+  .menu{
+    display:none
+  }
+  
+  li{
+    list-style:none;
+  }
+  
+  nav ul li a{
+    font-size: 18px;
+    color: black;
+    font-weight:500
+  }
+  
+  nav .logo{
+    display:flex;
+    flex-direction: row;
+    align-items:center
+  }
+  
+  nav .logo .logo-image{
+   background:url('../assets/logo.png');
+   width:70px;
+   height:70px;
+   background-size: cover
+  }
+  
+  nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height:80px;
+    align-items: center;
+    background-color: #fff
+  }
+  
+  nav ul{
+    display:flex;
+    flex-direction: row;
+  }
+  
+  nav ul li{
+    padding-left:20px
+  }
+  
+  .header-image{
+    position: relative;
+    background:url('../assets/header_image.png');
+    width: 100%;
+    height:600px;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover
+  }
+  
+  .header-image .content {
+    position:absolute;
+    top:120px;
+    left:100px;
+  }
+  
+  .header-image .content div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+  }
+  
+  .header-image .content .first-block {
+  width:200px;
+  background-color: #666666;
+  color:#fff;  
+  }
+  
+  .header-image .content .second-block{
+    width:300px;
+  background-color: #C53418;
+  color:#fff; 
+  }
+  
+  .header-image .content .third-block {
+    width:250px;
+    background-color:  #FAD831       ;
+    color:#fff;  
+  }
+  
+  
+  .header-image .content2 {
+    position:absolute;
+    height:60px;
+    background-color:#C53418;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    padding:20px;
+    border-radius: 5px;
+    bottom:-40px; 
+    margin:0;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  
+  .header-image .content2 .first-block{
+  font-size:20px;
+  color:#fff;
+  }
+  .header-image .content2 .second-block{
+    font-size:18px;
+    margin-top: 15px;
+    color:#dcdcdc
+  }
+  
+  @media screen and (max-width: 900px) {
+   nav ul{
+       display: none
+    }
+  
+  
+    .menu{
+      display:unset;
+      position: absolute;
+      left:20px;
+      font-size:30px;
+      color:#828282
+    }
+  
+    nav .logo .content{
+       font-size:14px
+    }
+  
+    nav .logo .logo-image{
+      background:url('../assets/logo.png');
+      width:50px;
+      height:50px;
+      background-size: cover
+     }
+  
+    
+  
+    .header-image .content {
+      position:absolute;
+      top:100px;
+      left:80px;
+    }
+  
+    .header-image{
+      position: relative;
+      background:url('../assets/header_image.png');
+      width: 100%;
+      height:400px;
+      background-position:center;
+      background-repeat:no-repeat;
+      background-size: cover
+    }
+  
+    .header-image .content2 {
+      position:absolute;
+      height:40px;
+      background-color:#C53418;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+      padding:20px;
+      border-radius: 5px;
+      bottom:-40px; 
+      margin:0;
+      left: 50%;
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+    }
+    
+      .header-image .content2 .first-block{
+        font-size:14px;
+        color:#fff;
+        }
+        .header-image .content2 .second-block{
+          font-size:12px;
+          margin-top: 15px;
+          color:#dcdcdc
+        }
+  
+        .header-image .content div{
+          display:flex;
+          justify-content: center;
+          align-items: center;
+          height:30px;
+          font-size:12px
+        }
+        
+        .header-image .content .first-block {
+        width:150px;
+        background-color: #666666;
+        color:#fff;  
+        }
+        
+        .header-image .content .second-block{
+          width:230px;
+        background-color: #C53418;
+        color:#fff; 
+        }
+        
+        .header-image .content .third-block {
+          width:190px;
+          background-color:  #FAD831       ;
+          color:#fff;  
+        }
+  
+  }
+  
+  @media screen and (max-width: 460px) {
+  
+    nav .logo .logo-image{
+      background:url('../assets/logo.png');
+      width:40px;
+      height:40px;
+      background-size: cover
+     }
+  
+     nav .logo .content{
+      font-size:12px
+   }
+    
+  
+    .header-image{
+      position: relative;
+      background:url('../assets/header_image.png');
+      width: 100%;
+      height:300px;
+      background-position:center;
+      background-repeat:no-repeat;
+      background-size: cover
+    }
+  
+    .header-image .content {
+      position:absolute;
+      top:50px;
+      left:30px;
+    }
+  
+    .header-image .content2 {
+      position:absolute;
+      height:30px;
+      background-color:#C53418;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+      padding:20px;
+      border-radius: 5px;
+      bottom:-40px; 
+      margin:0;
+      left: 50%;
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+    }
+    
+      .header-image .content2 .first-block{
+        font-size:12px;
+        color:#fff;
+        }
+        .header-image .content2 .second-block{
+          font-size:10px;
+          margin-top: 15px;
+          color:#dcdcdc
+        }
+  
+        .header-image .content div{
+          display:flex;
+          justify-content: center;
+          align-items: center;
+          height:30px;
+          font-size:12px;
+        }
+        
+        .header-image .content .first-block {
+        width:150px;
+        background-color: #666666;
+        color:#fff;  
+        }
+        
+        .header-image .content .second-block{
+        width:250px;
+        background-color: #C53418;
+        color:#fff; 
+        }
+        
+        .header-image .content .third-block {
+          width:200px;
+          background-color:  #FAD831       ;
+          color:#fff;  
+        }
+  
+   }
