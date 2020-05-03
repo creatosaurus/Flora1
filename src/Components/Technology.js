@@ -8,16 +8,19 @@ const Technology = () => {
                 <div className="logo1">
                     <strong>Architecture</strong>
                 </div>
+               
                 <div className="logo2">
                     <strong>Engineering</strong>
-
                 </div>
+          
                 <div className="logo3">
                     <strong>Architecture</strong>
                 </div>
+
                 <div className="logo4">
                     <strong>School</strong>
                 </div>
+                
                 <div className="logo5">
                     <strong>Architecture</strong>
                 </div>
