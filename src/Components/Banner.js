@@ -16,4 +16,4 @@ const Banner = () => {
     )
 }
 
-export default Banner
+export default React.memo(Banner)

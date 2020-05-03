@@ -1,12 +1,25 @@
 .section5{
     height:500px;
     width:100%;
-    background-image: url('../assets/college.png');
+    background-image: url('../assets/college.jpg');
     background-position: center;
     background-size: cover;
     margin-top: 50px;
     background-color: #000;
     position: relative;
+    z-index:-1;
+}
+
+.section5::before{
+    content:'';
+    position:absolute;
+    top:0px;
+    left:0px;
+    bottom:0px;
+    right:0px;
+    background-color: #000;
+    opacity:.5;
+    z-index:-1;
 }
 
 .section5 div{

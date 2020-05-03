@@ -30,4 +30,4 @@ const Numbers = () => {
     )
 }
 
-export default Numbers
+export default React.memo(Numbers)

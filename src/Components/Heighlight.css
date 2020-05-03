@@ -51,12 +51,7 @@
 
 @media screen and (max-width: 1200px) {
     .highlight .card-section {
-        display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 80px;
-        grid-gap: 50px
     }
 }
 
@@ -66,17 +61,8 @@
     }
 
     .highlight .head {
-        margin: auto;
-        width: '50%';
-        height: 50px;
-        background-color: #C53418;
         width: 150px;
         font-size: 16px;
-        color: #dcdcdc;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 5px
     }
 
 
@@ -87,7 +73,6 @@
     .highlight .card-section .card p {
         margin-top: 15px;
         font-size: 14px;
-        width: 80%
     }
 
 }

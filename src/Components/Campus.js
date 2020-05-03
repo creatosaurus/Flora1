@@ -24,4 +24,4 @@ const Campus = () => {
     )
 }
 
-export default Campus
+export default React.memo(Campus)

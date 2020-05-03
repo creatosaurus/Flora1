@@ -51,4 +51,4 @@ const Heighlight = () => {
     )
 }
 
-export default Heighlight
+export default React.memo(Heighlight)

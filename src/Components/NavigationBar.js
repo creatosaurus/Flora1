@@ -1,5 +1,5 @@
 import React from 'react'
-import './Header.css'
+import './NavigationBar.css'
 
 const NavigationBar = ({slide}) => {
     return (
@@ -39,4 +39,4 @@ const NavigationBar = ({slide}) => {
     )
 }
 
-export default NavigationBar
+export default React.memo(NavigationBar)

@@ -1,4 +1,5 @@
 import React from 'react'
+import './Technology.css'
 
 const Technology = () => {
     return (
@@ -29,4 +30,4 @@ const Technology = () => {
     )
 }
 
-export default Technology
+export default React.memo(Technology)

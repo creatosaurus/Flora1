@@ -21,7 +21,7 @@
 }
 
 .college{
-    background:url('../assets/college_girl.png');
+    background:url('../assets/college_girl.jpg');
     background-position: center;
     background-size: cover;
     width:100%;
@@ -42,5 +42,11 @@
 @media screen and (max-width: 670px) {
     .college{
         height:300px
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .college{
+        height:200px
     }
 }

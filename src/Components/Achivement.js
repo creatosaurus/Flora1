@@ -68,4 +68,4 @@ const Achivement = () => {
     )
 }
 
-export default Achivement
+export default React.memo(Achivement)

@@ -50,7 +50,7 @@ a{
   
   .header-image{
     position: relative;
-    background:url('../assets/header_image.png');
+    background:url('../assets/header_image.jpg');
     width: 100%;
     height:600px;
     background-position:center;
@@ -136,81 +136,47 @@ a{
     }
   
     nav .logo .logo-image{
-      background:url('../assets/logo.png');
       width:50px;
       height:50px;
-      background-size: cover
      }
   
-    
-  
     .header-image .content {
-      position:absolute;
       top:100px;
       left:80px;
     }
   
     .header-image{
-      position: relative;
-      background:url('../assets/header_image.png');
-      width: 100%;
       height:400px;
-      background-position:center;
-      background-repeat:no-repeat;
-      background-size: cover
     }
   
     .header-image .content2 {
-      position:absolute;
       height:40px;
-      background-color:#C53418;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      flex-direction:column;
-      padding:20px;
-      border-radius: 5px;
-      bottom:-40px; 
-      margin:0;
-      left: 50%;
-      -ms-transform: translateX(-50%);
-      transform: translateX(-50%);
     }
     
       .header-image .content2 .first-block{
         font-size:14px;
-        color:#fff;
         }
+
         .header-image .content2 .second-block{
           font-size:12px;
           margin-top: 15px;
-          color:#dcdcdc
         }
   
         .header-image .content div{
-          display:flex;
-          justify-content: center;
-          align-items: center;
           height:30px;
           font-size:12px
         }
         
         .header-image .content .first-block {
-        width:150px;
-        background-color: #666666;
-        color:#fff;  
+        width:150px; 
         }
         
         .header-image .content .second-block{
-          width:230px;
-        background-color: #C53418;
-        color:#fff; 
+          width:230px; 
         }
         
         .header-image .content .third-block {
           width:190px;
-          background-color:  #FAD831       ;
-          color:#fff;  
         }
   
   }
@@ -218,10 +184,8 @@ a{
   @media screen and (max-width: 460px) {
   
     nav .logo .logo-image{
-      background:url('../assets/logo.png');
       width:40px;
       height:40px;
-      background-size: cover
      }
   
      nav .logo .content{
@@ -230,72 +194,43 @@ a{
     
   
     .header-image{
-      position: relative;
-      background:url('../assets/header_image.png');
       width: 100%;
       height:300px;
-      background-position:center;
-      background-repeat:no-repeat;
-      background-size: cover
     }
   
     .header-image .content {
-      position:absolute;
       top:50px;
-      left:30px;
+      left:10px;
     }
   
     .header-image .content2 {
-      position:absolute;
       height:30px;
-      background-color:#C53418;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      flex-direction:column;
-      padding:20px;
-      border-radius: 5px;
-      bottom:-40px; 
-      margin:0;
-      left: 50%;
-      -ms-transform: translateX(-50%);
-      transform: translateX(-50%);
     }
     
       .header-image .content2 .first-block{
         font-size:12px;
-        color:#fff;
         }
+        
         .header-image .content2 .second-block{
           font-size:10px;
           margin-top: 15px;
-          color:#dcdcdc
         }
   
         .header-image .content div{
-          display:flex;
-          justify-content: center;
-          align-items: center;
           height:30px;
           font-size:12px;
         }
         
         .header-image .content .first-block {
         width:150px;
-        background-color: #666666;
-        color:#fff;  
         }
         
         .header-image .content .second-block{
-        width:250px;
-        background-color: #C53418;
-        color:#fff; 
+        width:230px; 
         }
         
         .header-image .content .third-block {
-          width:200px;
-          background-color:  #FAD831       ;
-          color:#fff;  
+          width:190px; 
         }
   
    }

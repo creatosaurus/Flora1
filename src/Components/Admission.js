@@ -83,4 +83,4 @@ const Admission = () => {
     )
 }
 
-export default Admission
+export default React.memo(Admission)

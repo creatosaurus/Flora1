@@ -9,4 +9,4 @@ const BackPress = ({slide}) => {
     )
 }
 
-export default BackPress
+export default React.memo(BackPress)
