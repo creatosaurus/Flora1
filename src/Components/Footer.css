@@ -81,3 +81,19 @@ footer .grid .reachus{
        font-size: 12px
     }
 }
+
+
+@media screen and (max-width: 390px) {
+    footer .grid{
+        grid-template-columns:repeat(1,1fr);
+        grid-gap: 15px;
+    }
+
+    footer strong{
+        font-size: 12px
+    }
+
+    .copyright strong{
+        font-size: 12px
+    }
+}

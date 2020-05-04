@@ -4,7 +4,7 @@ import './Slider.css'
 const Slider = (props) => {
 
     return (
-        <div className="slider" onClick={()=>props.slide()} onScroll={()=>alert('hi')}>
+        <div className="slider" onClick={()=>props.slide()} >
               <ul>
                     <li><a href="#home">HOME</a></li>
                     <li><a href="#highlight">ABOUT</a></li>
