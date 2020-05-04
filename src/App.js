@@ -18,7 +18,6 @@ const App = () => {
 
   const [toggle, settoggle] = useState(false)
 
-
   const handleScroll = () => {
     if(toggle === true) return settoggle(false)
     return
@@ -33,7 +32,6 @@ const App = () => {
       <NavigationBar slide={toggleSlider} />
       {
         toggle === true ? <> <Slider slide={toggleSlider} scrollSlider={handleScroll}>  </Slider> <BackPress slide={toggleSlider} /> </> : <> </>
-
       }
       <Heighlight />
       <Campus />
